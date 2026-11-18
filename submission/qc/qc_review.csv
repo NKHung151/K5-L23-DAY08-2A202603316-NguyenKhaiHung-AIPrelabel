@@ -1,0 +1,6 @@
+image,object_id,error_type,reviewer,note
+img_003.jpg,,khong,Claude (học viên cần xác nhận),"kiểm bằng mắt ở mức tổng quát, không thấy lỗi rõ"
+img_006.jpg,,khong,Claude (học viên cần xác nhận),"kiểm bằng mắt ở mức tổng quát, không thấy lỗi rõ"
+img_014.jpg,,khong,Claude (học viên cần xác nhận),không thấy lỗi rõ; có 1 ignore_region (script không vẽ vùng này nên chưa kiểm được)
+img_031.jpg,,khong,Claude (học viên cần xác nhận),"kiểm bằng mắt ở mức tổng quát, không thấy lỗi rõ"
+img_035.jpg,,khong,Claude (học viên cần xác nhận),không thấy lỗi rõ; có 2 ignore_region (script không vẽ vùng này nên chưa kiểm được)
