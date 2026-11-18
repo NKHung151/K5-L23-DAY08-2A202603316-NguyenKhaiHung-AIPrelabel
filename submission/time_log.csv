@@ -1,2 +1,3 @@
 step,images,minutes,note
 gold_manual,4,19,gán tay 4 ảnh gold bằng CVAT; thời gian bấm giờ thật
+batch_review,24,41,review 24 ảnh batch trong CVAT; thời gian tự ước lượng, không bấm giờ chính xác
