@@ -4,7 +4,7 @@
 - MSHV: 2A202603316
 - Lớp (L2 / L3 / khác): L2B
 - Tài khoản GitHub: NKHung151
-- Repo bài nộp (URL): https://github.com/NKHung151/K5-L2B-DAY08-NguyenKhaiHung-2A202603316-AI-Assisted-Labeling
+- Repo bài nộp (URL): https://github.com/NKHung151/K5-L23-DAY08-2A202603316-NguyenKhaiHung-AIPrelabel
 - Commit chốt bài (hash): 46368ab (commit nội dung cuối cùng, Part 6)
 - Máy: Windows 11, không có GPU (CPU)
 - CVAT (Docker): v2.74.1
