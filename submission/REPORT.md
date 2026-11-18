@@ -77,7 +77,7 @@ Theo lớp (accepted / edited / deleted / added): person 157/6/4/34 · motorbike
 
 ## 7. QC và quyết định (Part 6)
 
-- Mẫu: 5 ảnh (0 ảnh `can_review` + 5 ngẫu nhiên, seed 42); người kiểm: Nguyễn Khải Hưng (tôi), bằng mắt trên ảnh `work/qc/review/`; Claude xem sơ bộ trước và tôi tự kiểm lại 5 ảnh, kết quả trùng nhau (**hạn chế**: người kiểm cũng là người review nhãn, và kiểm bằng mắt không đo được độ ôm sát từng box).
+- Mẫu: 5 ảnh (0 ảnh `can_review` + 5 ngẫu nhiên, seed 42); người kiểm: Nguyễn Khải Hưng (tôi), bằng mắt trên ảnh `work/qc/review/` (**hạn chế**: người kiểm cũng là người review nhãn, và kiểm bằng mắt không đo được độ ôm sát từng box).
 - Lỗi theo **đối tượng**: 0/75 = 0.0% · theo **ảnh**: 0/5 = 0.0% (ngưỡng Release ≤ 2%). Nhãn kiểm là nhãn cuối `submission/labels/batch_reviewed.json` (419 đối tượng, gồm 19 `ignore_region` ở 10 ảnh theo CAL-03).
 - Top lỗi (trong: bỏ sót, thừa, sai lớp, sai vị trí/kích thước, sai thuộc tính, sai mask) + một ảnh ví dụ mỗi loại: không ghi nhận lỗi nào trong mẫu (kiểm tổng quát, không rà kỹ từng đối tượng); các vùng `ignore_region` ở `img_014` và `img_035` chưa kiểm được vì script không vẽ vùng này.
 - **Giới hạn mẫu nhỏ** (cận trên 95% trong `qc_report_auto.md`): 0 ảnh lỗi trong 5 ảnh mẫu, cận trên 95% (Wilson) của tỉ lệ ảnh lỗi thật là **43%**; mẫu 5/24 ảnh không thể chứng minh ngưỡng 2%, nên kết quả Release dưới đây là yếu về mặt thống kê.
